@@ -16,7 +16,6 @@ app.get('/load-countries-btn', indexController.countriesbtn);
 
 // send countries handle to server
 // app.post('/load-countries-btn', indexController.countriesbtn);
-
 //app.post('/load-countries-form', indexController.countriesform);
 
 var server = app.listen(6473, function() {

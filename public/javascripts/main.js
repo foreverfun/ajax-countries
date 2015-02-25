@@ -13,8 +13,13 @@ $(document).on('ready', function() {
         //   //return value + " " + index;
         // });
         data.forEach(function(country){
-          console.log(country.name);
-        });
+           $('body').append(
+                "French Name: ", country.frenchName + "<br/>" +
+                "Local Name: ", country.localName + "<br/>" +
+                "Name: ", country.name + "<br/>" +
+                "Region: ", country.region + "<br/><br/>");
+         });
+        
     });
     
     // $.post('/load-countries-btn', function(data) {
